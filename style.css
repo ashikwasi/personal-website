@@ -1,24 +1,30 @@
+ /*Main Tag Call*/
 body{
     font-family: 'Poppins';
 }
 section{
     height: 500px;
 }
-.half-width p{
-    color: gray;
+h3{
+    font-weight: normal;
 }
+Footer P{
+    text-align: center;
+    color: grey;
+}
+/* First Section*/
+
 .top-half{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     margin-left: 10%;
 }
-
-.secound-half{
-    background-image: url("images/biography-bg.png");
-    background-position: initial;
-    background-repeat: repeat;
-    margin-top: 20%;
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
 }
 .color-name{
     color: #c52374;
@@ -27,11 +33,8 @@ section{
 .hello{
     font-size: 30px;
 }
-.half-width{
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
-    float: left;
+.half-width p{
+    color: gray;
 }
 .text-area{
     padding-top: 10%;
@@ -47,14 +50,15 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
 }
-.Download-Cv{
-    text-decoration: none;
-    font-weight: 700;
-    color: white;
-    background-image: linear-gradient(40deg, hotpink, #ff0080);
-    padding: 10px 30px;
-    border-radius: 5px;
+
+/* Secound Section*/
+.secound-half{
+    background-image: url("images/biography-bg.png");
+    background-position: initial;
+    background-repeat: repeat;
+    margin-top: 20%;
 }
+/*Latest Wrok Section*/
 .work-section{
     margin-top: 30%;
     background-image: url("images/latest-work-bg.png");
@@ -72,6 +76,21 @@ section{
 }
 .work-img img{
     width: 100%;
+}
+.Download-Cv{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(40deg, hotpink, #ff0080);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/*Footer Top*/
+.footer{
+    margin-top: 20%;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .comments{
     text-align: center;
@@ -91,9 +110,6 @@ section{
     font-size: 12px;
     text-align: center;
 }
-h3{
-    font-weight: normal;
-}
 .contact-area{
 background-image: linear-gradient(460deg, hotpink,#ff0080);
 border-radius: 5;
@@ -104,14 +120,4 @@ margin-right: 30%;
 padding: 20px;
 border-radius: 7px;
 width:40%;
-}
-.footer{
-    margin-top: 20%;
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-Footer P{
-    text-align: center;
-    color: grey;
 }
